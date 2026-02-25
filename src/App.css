@@ -1,0 +1,23 @@
+/*
+<>
+    <div className="search-group">
+    <input
+        type="text"
+        placeholder="Enter city..."
+        value={city}
+        onChange={(e) => setCity(e.target.value)}
+    />
+    <button onClick={fetchWeather}>Search</button>
+    </div>
+    <div className="weather-display">
+    {weather ? <p>{weather}</p> : <p>Data unavailable</p>}
+    <h2>London, GB</h2>
+    <h1>22°C</h1>
+    <p>Feels like 20°C</p>
+    <p>Humidity: 60%</p>
+    <p>Wind: 5.2 m/s</p>
+    <p>Clear sky</p>
+    </div>
+</>
+
+*/
