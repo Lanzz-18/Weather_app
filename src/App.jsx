@@ -36,6 +36,7 @@ function App() {
         <button onClick={fetchWeather}>Search</button>
       </div>
       <div className="weather-display">
+        {weather ? <p>{weather}</p> : <p>Data unavailable</p>}
         <h2>London, GB</h2>
         <h1>22°C</h1>
         <p>Feels like 20°C</p>
@@ -46,6 +47,5 @@ function App() {
     </>
   )
 }
-//         {weather ? <p>{weather}</p> : <p>Data unavailable</p>}
 
 export default App;
